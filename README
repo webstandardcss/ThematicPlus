@@ -1,0 +1,40 @@
+ThematicPlus a child theme by Trey Brister
+Follow me on twitter http://twitter.com/webstandardcss 
+
+*** Thematic Plus ***
+
+Really should be Thematic Minus because I removed most presentational styling to provide more of a blank slate. This reduces the need to override a lot of CSS styles to get the colors, backgrounds, and borders removed or changed. It allows you to use less specific CSS to get the job done.
+
+*** Instructions ***
+
+Install Thematic Theme Framework from the WordPress plugin repository.
+
+Install this zip from the WordPress admin: "appearance -> themes" or unzip into your wp-content/themes directory.
+
+Activate ThematicPlus
+
+*** IMPORTANT ***  
+
+Only edit custom.css and functions.php to reduce problems when Thematic is upgraded.
+
+*** PROTIP *** 
+
+Make a site-helper plugin instead of editing functions.php to use your code with any theme.
+
+*** TODO *** 
+
+Make this multi-site enabled just like the LessThematic child theme on GitHub.
+
+*** RESOURCES ***
+
+http://themeshaper.com/thematic/guide/
+http://themeshaper.com/guide-customizing-thematic-theme-framework/
+http://themeshaper.com/resources/
+http://themeshaper.com/forums/
+
+*** SUPPORT ***
+
+Follow me on twitter http://twitter.com/webstandardcss 
+for free @reply support, links and questions. (No support by direct message please.)
+
+Call Trey at +1-214-444-8750 for paid support and customization.
