@@ -1,7 +1,7 @@
 /*   
 Theme Name: Thematic Plus
 Theme URI: http://somanyproducts.com
-Description: Removes most Colors and Borders from CSS 
+Description: Removes most Colors and Borders from CSS in default.css
 Author: Trey Brister
 Author URI: http://web-standard-design.com/
 Template: thematic
@@ -13,23 +13,23 @@ Tags: CSS, Thematic
 
 
 /* Reset browser defaults */
-@import url('library/styles/reset.css');
+@import url('../thematic/library/styles/reset.css');
 
 /* Apply basic typography styles */
-@import url('library/styles/typography.css');
+@import url('../thematic/library/styles/typography.css');
 
 /* Apply a basic layout */
-@import url('library/layouts/2c-r-fixed.css');
+@import url('../thematic/library/layouts/2c-r-fixed.css');
 
 /* Apply basic image styles */
-@import url('library/styles/images.css');
+@import url('../thematic/library/styles/images.css');
 
 /* Apply default theme styles and colors */
 /* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
 @import url('default.css');
 
 /* Prepare theme for plugins */
-@import url('library/styles/plugins.css');
+@import url('../thematic/library/styles/plugins.css');
 
 /* Custom CSS */
 @import url('custom.css');
