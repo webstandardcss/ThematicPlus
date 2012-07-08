@@ -1,3 +1,22 @@
-*, #header, #main, #footer, #branding, #container, #content {
+#header, 
+#main, 
+#footer, 
+#branding, 
+#container, 
+#content {
 	position:relative;
 }
+
+/* Uncomment For One Column Layout */
+/*
+#branding, 
+#primary, 
+#secondary {
+	display: none;
+}
+
+#container,
+#content {
+	width: 960px;
+}
+*/
