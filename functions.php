@@ -24,7 +24,7 @@ global $imagesdir, $childtheme, $my_site, $childtheme_dir, $custom_php, $default
 $imagesdir = get_bloginfo('stylesheet_directory') . '/images';
 $childtheme = get_bloginfo('stylesheet_directory');
 $my_site = $GLOBALS[ 'blog_id' ];
-remove_filter(�comment_text�, �make_clickable�, 9);
+remove_filter('comment_text', 'make_clickable', 9);
 
 
 /** 
